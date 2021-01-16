@@ -13,6 +13,9 @@ namespace PokemonGame
             //create a second hokemon
             Hokemon HokeObject02 = new Hokemon();
             HokeObject02.get_details();
+            Battle_Arena firstArena = new Battle_Arena(); // creating/instantiating the object firstArena from the Battle_Arena CLASS
+            firstArena.RequestAChallenger(HokeObject01);
+            firstArena.AcceptingTheBattle(HokeObject01, HokeObject02);
         }
     }
 }
