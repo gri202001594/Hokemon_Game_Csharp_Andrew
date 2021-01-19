@@ -16,6 +16,14 @@ namespace PokemonGame
             Battle_Arena firstArena = new Battle_Arena(); // creating/instantiating the object firstArena from the Battle_Arena CLASS
             firstArena.RequestAChallenger(HokeObject01);
             firstArena.AcceptingTheBattle(HokeObject01, HokeObject02);
+            HokeObject01.about();
+            HokeObject02.about();
+            Hokemon hoke04 = new Hokemon();
+            Halor halorHoke01 = new Halor();
+            hoke04.about();
+            halorHoke01.about();
+            halorHoke01.get_details();
+            //polymorphism is when a method inherited is able to be repurposed
         }
     }
 }

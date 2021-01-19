@@ -57,6 +57,11 @@ namespace PokemonGame
             randomValue = rnd.Next(min_value, max_value);
             return randomValue;
         }
+
+        public void about()
+        {
+            Console.WriteLine("I am one of the mystical species collectively known as Hokemon!");
+        }
     }
 }
 
