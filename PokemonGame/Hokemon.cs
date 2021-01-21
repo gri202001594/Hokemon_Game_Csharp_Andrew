@@ -39,7 +39,7 @@ namespace PokemonGame
             health = random_int_generator(10, max_health);
             attack = random_int_generator(10, 100);
             speed = random_int_generator(10, 100);
-            defense = random_int_generator(10, 100);
+            defence = random_int_generator(10, 100);
         }
         public void provide_name()
         {

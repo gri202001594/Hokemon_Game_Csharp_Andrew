@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PokemonGame
 {
-    class Hinstinct : Hokemon
+   /* class Hinstinct : Hokemon
     {
         private string team = "Hinstinct";
         public void about()
@@ -12,4 +12,5 @@ namespace PokemonGame
             Console.WriteLine("I am {0}, part of team {1}", Name, team);
         }
     }
+   */
 }
