@@ -11,7 +11,7 @@ namespace PokemonGame
         private int max_health;
         private int attack;
         private int speed;
-        private int defense;
+        private int defence;
 
 
         //properties are a combination of a field and method
@@ -62,6 +62,25 @@ namespace PokemonGame
         {
             Console.WriteLine("I am one of the mystical species collectively known as Hokemon!");
         }
+
+        public int attackCalculator()
+        {//calculating an attack value when the Hokemon fights 
+            int attackValue;
+            attackValue = (attack + speed)*random_int_generator(0,2);
+            return attackValue;
+        
+        }
+
+        public int defenceCalculator()
+        {//calculating a defence value when the Hokemon fights
+            int defenceValue;
+            defenceValue = (defence + speed) * random_int_generator(0, 2);
+            return defenceValue;
+
+        }
+
+
+
     }
 }
 

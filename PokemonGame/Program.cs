@@ -22,8 +22,10 @@ namespace PokemonGame
             Halor halorHoke01 = new Halor();
             hoke04.about();
             halorHoke01.about();
-            halorHoke01.get_details();
+            halorHoke01.get_details(); //|| = or
             //polymorphism is when a method inherited is able to be repurposed
+
+            
         }
     }
 }
