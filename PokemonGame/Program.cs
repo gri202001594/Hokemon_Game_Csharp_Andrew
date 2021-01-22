@@ -18,12 +18,11 @@ namespace PokemonGame
             firstArena.AcceptingTheBattle(HokeObject01, HokeObject02);
             HokeObject01.about();
             HokeObject02.about();
-            Hokemon hoke04 = new Hokemon();
             Halor halorHoke01 = new Halor();
-            hoke04.about();
-            halorHoke01.about();
-            halorHoke01.get_details();
-            
+            //hoke04.about();
+           // halorHoke01.about();
+           // halorHoke01.get_details();
+           
 
             //|| = or
             //polymorphism is when a method inherited is able to be repurposed

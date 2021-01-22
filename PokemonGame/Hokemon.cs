@@ -60,7 +60,7 @@ namespace PokemonGame
 
         public void about()
         {
-            Console.WriteLine("I am one of the mystical species collectively known as Hokemon!");
+            Console.WriteLine("I am {0}, one of the mystical species collectively known as Hokemon!",Name);
         }
 
         public int attackCalculator()
