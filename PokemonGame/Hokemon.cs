@@ -48,7 +48,7 @@ namespace PokemonGame
         }
         public void get_details()
         {
-            Console.WriteLine("\n\nName: {0}\nHealth: {1}/{2}\nAttack: {3}\nSpeed: {4}\nDefense: {5}", Name, Health, max_health, attack, speed, defense);
+            Console.WriteLine("\n\nName: {0}\nHealth: {1}/{2}\nAttack: {3}\nSpeed: {4}\nDefence: {5}", Name, Health, max_health, attack, speed, defence);
         }
         public int random_int_generator(int min_value, int max_value)
         {
