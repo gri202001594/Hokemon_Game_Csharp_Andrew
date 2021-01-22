@@ -25,7 +25,7 @@ namespace PokemonGame
         public int Health
         {
             get { return health; }
-            set
+            set 
             {
                 health = value;
 

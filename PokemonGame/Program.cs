@@ -18,9 +18,9 @@ namespace PokemonGame
             firstArena.AcceptingTheBattle(HokeObject01, HokeObject02);
             HokeObject01.about();
             HokeObject02.about();
-            Halor halorHoke01 = new Halor();
+           // Halor halorHoke01 = Hokemon HokeObject02();
             //hoke04.about();
-           // halorHoke01.about();
+           //halorHoke01.about();
            // halorHoke01.get_details();
            
 
