@@ -6,6 +6,12 @@ namespace PokemonGame
     {
         static void Main(string[] args)
         {
+            Hokemon[] ChallengersArray = new Hokemon[3];
+            Random rnd = new Random();
+            Boolean repeatGame = true;
+            string result;
+
+
             Console.WriteLine("Welcome to the world of Hokemon!");
             Hokemon HokeObject01 = new Hokemon();
             HokeObject01.get_details();
