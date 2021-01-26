@@ -58,23 +58,20 @@ namespace PokemonGame
             return randomValue;
         }
 
-        public void about()
-        {
-            Console.WriteLine("I am {0}, one of the mystical species collectively known as Hokemon!",Name);
-        }
+        
 
         public int attackCalculator()
         {//calculating an attack value when the Hokemon fights 
             int attackValue;
-            attackValue = (attack + speed)*random_int_generator(0,2);
+            attackValue = ((attack + speed) - (defence / 2)) * random_int_generator(0, 2);
             return attackValue;
         
         }
 
         public int defenceCalculator()
-        {//calculating a defence value when the Hokemon fights
+        {
             int defenceValue;
-            defenceValue = (defence + speed) * random_int_generator(0, 2);
+            defenceValue = (attack + speed) * random_int_generator(0, 2);
             return defenceValue;
 
         }

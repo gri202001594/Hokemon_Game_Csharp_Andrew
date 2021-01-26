@@ -4,13 +4,12 @@ using System.Text;
 
 namespace PokemonGame
 {
-   /* class Hinstinct : Hokemon
+    class Hinstinct : Hokemon
     {
-        private string team = "Hinstinct";
-        public void about()
+        public string HinstinctTeam = "Halor";
+        public void about() //using polymorphism to change method inherited from hokemon parent class
         {
-            Console.WriteLine("I am {0}, part of team {1}", Name, team);
+            Console.WriteLine("I am {0}, part of team {1}!!", Name, HinstinctTeam);
         }
     }
-   */
 }
