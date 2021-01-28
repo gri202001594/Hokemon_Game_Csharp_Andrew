@@ -77,6 +77,8 @@ namespace PokemonGame
                 Console.WriteLine("{0}: WINS", defender.Name);  
             }
 
+            Console.WriteLine("Would you like to play another game?");
+            bool repeatGame.Console.ReadLine();
 
         }
 
